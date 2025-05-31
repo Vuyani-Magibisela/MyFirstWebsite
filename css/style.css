@@ -20,7 +20,7 @@ body{
 
 .nav-links{
     display: flex;
-    list-styles: none;
+    list-style: none;
 }
 
 .nav-links li{
@@ -31,7 +31,7 @@ body{
     color: white;
     text-decoration: none;
     font-size: 1rem;
-    tranition: all 0.3s ease;
+    transition: all 0.3s ease;
 }
 
 .banner{
