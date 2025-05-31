@@ -33,3 +33,91 @@ body{
     font-size: 1rem;
     tranition: all 0.3s ease;
 }
+
+.banner{
+    background-image:url(../img/class.jpg);
+    background-size: cover;
+    background-position:center;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    position: relative;
+}
+
+.banner-content{
+    position: relative;
+    z-index: 1;
+    padding: 20px;
+}
+
+.banner-content h1{
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.banner-content p{
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.cta-button{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff6347;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.cta-button:hover{
+    background-color: #ff4500;
+}
+
+/* mainContainer style */
+.mainContainer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    gap: 10px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background: #fc5555;
+    margin-top: 2rem;
+}
+
+.siteInfo{
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    grid-column: 1/4;
+}
+.siteInfo h1{
+    font-size: 2rem;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 1rem;
+}
+
+.siteInfo p{
+    font-size: 1.8rem;
+    color: #333;
+    text-align: center;
+}
+
+.card{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.card img{
+    width: 400px;
+    height: 500px;
+}
